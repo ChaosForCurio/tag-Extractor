@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Tag Extractor</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://i.pinimg.com/736x/2f/1b/1a/2f1b1ab692a414f5b2f6f7c41072c537.jpg"
+    />
+  </head>
+  <body>
+    <h1>YouTube Tag Extractor</h1>
+
+    <div class="container">
+      <input
+        type="text"
+        id="youtubeUrl"
+        placeholder="Paste YouTube link here..."
+      />
+      <button onclick="extractTags()">Extract Tags</button>
+      <div class="output" id="output">Tags will appear here...</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.1/tsparticles.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="puppet.js"></script>
+  </body>
+</html>
